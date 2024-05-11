@@ -53,6 +53,12 @@ ingress:
   annotations:
     {}
   hosts:
+    - host: "helloworld.com" 
+      paths:
+        - path: /
+          pathType: Prefix
+          serviceName: "helloworld"
+          servicePort: 5000
     - paths:
         - path: /
           pathType: Prefix

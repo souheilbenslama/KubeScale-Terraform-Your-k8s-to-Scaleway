@@ -1,0 +1,5 @@
+flask_app/.venv
+
+terraform/.terraform
+
+*.tfstate*
